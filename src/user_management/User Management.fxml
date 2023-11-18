@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" fx:controller="usermanagement.UserManagementScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="680.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane layoutX="1.0" layoutY="0.0" prefHeight="583.0" prefWidth="680.0">
+      <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc0000" height="103.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" style="-fx-background-color:darkred;" width="680.0" />
+        <Label layoutX="33.0" layoutY="32.0" prefHeight="34.951171875" prefWidth="180.0" text="User Management" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="20.0" />
+          </font>
+        </Label>
+        <Circle fill="#0066ff" layoutX="458.0" layoutY="52.0" radius="29.5" stroke="BLACK" strokeType="INSIDE" />
+        <Label layoutX="450.0" layoutY="34.0" text="R" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="25.0" />
+          </font>
+        </Label>
+        <Label layoutX="507.0" layoutY="37.0" prefHeight="30.451171875" prefWidth="148.0" text="Ritesh (Admin)" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="18.0" fx:id="x2" />
+          </font>
+        </Label>
+        <Button fx:id="Adduser" font="$x2" layoutX="243.0" layoutY="189.0" onAction="#AddUser" mnemonicParsing="false" prefHeight="34.951071875002526" prefWidth="207.0" style="-fx-background-color:darkred;&#10;" text="Add User" textFill="WHITE" />
+        <Button fx:id="Edituser" font="$x2" layoutX="243.0" layoutY="253.0" onAction="#EditUser" mnemonicParsing="false" prefHeight="34.951071875002526" prefWidth="207.0" style="-fx-background-color:darkred;" text="Edit User" textFill="WHITE" />
+        <Button fx:id="Deleteuser" font="$x2" layoutX="243.0" layoutY="317.0" onAction="#DeleteUser" mnemonicParsing="false" prefHeight="34.251953125" prefWidth="207.0" style="-fx-background-color:darkred;" text="Delete User" textFill="WHITE" />
+        <Button fx:id="Searchuser" font="$x2" layoutX="243.0" layoutY="381.0" onAction="#SearchUser" mnemonicParsing="false" prefHeight="34.251953125" prefWidth="207.0" style="-fx-background-color:darkred;" text="Search User" textFill="WHITE" />
+        <Button fx:id="Back" layoutX="243.0" layoutY="447.0" onAction="#Back" mnemonicParsing="false" prefHeight="34.251953125" prefWidth="207.0" style="-fx-background-color:white;&#10;-fx-border-color:red;" text="Back" textFill="RED">
+          <font>
+            <Font size="18.0" fx:id="x1" />
+          </font>
+        </Button>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

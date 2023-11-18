@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" fx:controller="productmanagement.ProductScreenController" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="1051.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" >
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#990000" height="106.0" stroke="BLACK" strokeType="INSIDE" width="1051.0" />
+    <Button id="addproduct" fx:id="AddProduct" layoutX="325.0" layoutY="166.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: darkred;" text="Add Product" textFill="WHITE">
+      <font>
+        <Font size="23.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button id="editproduct" fx:id="EditProduct" font="$x1" layoutX="325.0" layoutY="340.0" mnemonicParsing="false" onAction="#editProduct" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: darkred;" text="Edit Product" textFill="WHITE" />
+    <Button id="quitproduct" fx:id="Quit" font="$x1" layoutX="333.0" layoutY="516.0" mnemonicParsing="false" onAction="#quiteProduct" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: white; -fx-border-color: red;" text="Quit" textFill="RED" />
+    <Label layoutX="37.0" layoutY="36.0" text="Product Management" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="24.0" />
+      </font>
+    </Label>
+    <Circle fill="DODGERBLUE" layoutX="740.0" layoutY="54.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="731.0" layoutY="35.0" text="R">
+      <font>
+        <Font name="System Bold" size="27.0" />
+      </font>
+    </Label>
+    <Label layoutX="788.0" layoutY="39.0" text="Ritesh (Admin)" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="22.0" />
+      </font>
+    </Label>
+    <Button id="searchproduct" fx:id="SearchProduct" font="$x1" layoutX="325.0" layoutY="251.0" mnemonicParsing="false" onAction="#searchProduct" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: darkred;" text="Search Product" textFill="WHITE" />
+    <Button id="deleteproduct" fx:id="DeleteProduct" font="$x1" layoutX="325.0" layoutY="431.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: darkred;" text="Delete Product" textFill="WHITE" />
+  </children>
+</Pane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" fx:controller="home_screen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="680.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane layoutX="0.0" layoutY="0.0" prefHeight="483.0" prefWidth="680.0">
+      <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc0000" height="103.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="680.0" />
+        <Label layoutX="33.0" layoutY="32.0" prefHeight="34.951171875" prefWidth="187.0" text="Home Screen" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="25.0" fx:id="x1" />
+          </font>
+        </Label>
+        <Circle fill="#0066ff" layoutX="458.0" layoutY="52.0" radius="29.5" stroke="BLACK" strokeType="INSIDE" />
+        <Label font="$x1" layoutX="450.0" layoutY="34.0" text="R" textFill="WHITE" />
+        <Label layoutX="507.0" layoutY="37.0" prefHeight="30.451171875" prefWidth="148.0" text="Ritesh (Admin)" textFill="WHITE">
+          <font>
+            <Font name="System Bold" size="18.0" />
+          </font>
+        </Label>
+        <Button fx:id="UserManagement" layoutX="237.0" layoutY="181.0" mnemonicParsing="false" prefHeight="33.2519446777369" prefWidth="206.99990000000253" style="-fx-background-color:darkred;" text="User Management" textFill="WHITE">
+          <font>
+            <Font size="18.0" fx:id="x2" />
+          </font>
+        </Button>
+        <Button fx:id="ProductManagement" font="$x2" layoutX="237.0" layoutY="260.0" mnemonicParsing="false" prefHeight="34.951071875002526" prefWidth="207.0" style="-fx-background-color:darkred;" text="Product Management" textFill="WHITE" />
+        <Button fx:id="Quit" font="$x2" layoutX="237.0" layoutY="347.0" mnemonicParsing="false" prefHeight="34.251953125" prefWidth="207.0" style="-fx-border-color:orange;&#10;-fx-background-color:white;" text="Quit" textFill="BLACK" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
